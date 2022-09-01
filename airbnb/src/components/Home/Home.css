@@ -1,0 +1,12 @@
+.home-container {
+    margin: 20px auto;
+    max-width: 1200px;
+   
+   
+}
+
+.feature-container-home,
+.experience-container-home {
+    margin: 50px 0;
+}
+

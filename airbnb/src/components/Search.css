@@ -1,0 +1,135 @@
+.search-container {
+  
+    box-shadow: 0 1px 10px rgba(161, 161, 161, 0.2);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;  
+  }
+  
+  .search-center__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    height: 40px;
+    gap: 30px;
+    height: 70px;
+  }
+  
+  .search-text {
+    font-size: 14px;
+  }
+  
+  .unerline {
+    border-bottom: 3px solid black;
+    line-height: 23px;
+  }
+  
+  .search-input__container {
+    margin: 20px auto;
+    height: 65px;
+    max-width: fit-content;
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 70px;
+  }
+  
+  .input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65px;
+    padding: 10px 20px;
+  }
+  
+  .input-container:hover {
+    background-color: rgb(203, 203, 203);
+    border-radius: 70px;
+    cursor: pointer;
+  }
+  
+  .input-container label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    outline-style: none;
+  }
+
+  .search-input__container {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card-place {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .input-container input:hover {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .check-out, .check-in, .guest {
+    font-size: 14px;
+    color: rgb(118, 118, 118);
+  }
+  
+  .btn-search{
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background-color: #FF385C;
+    padding: 15px 20px;
+    border-radius: 60px;
+    height: 65px;
+  }
+  
+  .card-place {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .location-card-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .guest-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+  }
+  
+  .heart-icon__outline{
+    font-size: 30px;
+    padding: 5px;
+    border: 1px solid darkgrey;
+    border-radius: 50%;
+  }
+  
+  .heart-icon__outline:hover {
+    cursor: pointer;
+    background-color: #FF385C;
+    color: #fff;
+    border: none;
+  }

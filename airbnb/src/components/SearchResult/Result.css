@@ -1,0 +1,29 @@
+main {
+    margin: 50px 0;
+}
+.results-sub{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.results-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.filter {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 14px;
+}
+
+.filter:hover {
+    cursor: pointer;
+}

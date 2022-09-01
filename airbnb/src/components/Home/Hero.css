@@ -1,0 +1,40 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    background-image: url("https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero-cta {
+    font-size: 45px;
+    color: #fff;
+}
+
+.hero-explain {
+    color: #fff;
+    font-size: 22px;
+}
+
+.hero-btn {
+    /* background-color: #FF385C; */
+    background: linear-gradient( to right, #FF385C,  #c0213e);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-btn:hover {
+    background: #FF385C;
+    cursor: pointer;
+}
